@@ -29,7 +29,7 @@ $num_days = cal_days_in_month(CAL_GREGORIAN, $current_month, $current_year);
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Attendance System</title>
+        <title>RFID Access System</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -38,19 +38,19 @@ $num_days = cal_days_in_month(CAL_GREGORIAN, $current_month, $current_year);
     <body>
 
     <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Attendance System</a>
+        <a class="navbar-brand" href="#">RFID Access System</a>
         <ul class="nav nav-pills">
             <li class="nav-item">
-                <a href="attendance.php" class="nav-link active">View Attendance</a>
+                <a href="activity.php" class="nav-link active">Activity Log</a>
             </li>
             <li class="nav-item">
-                <a href="users.php" class="nav-link">View Users</a>
+                <a href="users.php" class="nav-link">Users</a>
             </li>
         </ul>
     </nav>
     <div class="container">
         <div class="row">
-            <h2>Attendance</h2>
+            <h2>Activity Log</h2>
         </div>
         <table class="table table-striped table-responsive">
             <thead class="thead-dark">
