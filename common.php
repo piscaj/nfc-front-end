@@ -9,8 +9,8 @@ use Medoo\Medoo;
 //Modify these settings to match your own configuration.
 $database = new Medoo([
     'database_type' => 'mysql',
-    'database_name' => 'attendancesystem',
+    'database_name' => 'nfcUsers',
     'server'        => 'localhost',
-    'username'      => 'attendanceadmin',
-    'password'      => 'pimylifeup'
+    'username'      => 'piscaj',
+    'password'      => 'scoobydoo'
 ]);
