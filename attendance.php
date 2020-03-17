@@ -1,6 +1,7 @@
 <?php
 require 'common.php';
 
+
 //Grab all users from our database
 $users = $database->select("users", [
     'id',
